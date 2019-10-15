@@ -1,0 +1,9 @@
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\bin\Debug\CapaDisenoCompras.dll
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\bin\Debug\CapaDisenoCompras.pdb
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\bin\Debug\CapaLogicaCompras.dll
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\bin\Debug\CapaLogicaCompras.pdb
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.csprojAssemblyReference.cache
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.csproj.CopyComplete
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.dll
+C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.pdb

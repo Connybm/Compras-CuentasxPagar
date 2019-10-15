@@ -1,0 +1,9 @@
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\bin\Debug\CapaControlCuentasxPagar.dll
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\bin\Debug\CapaControlCuentasxPagar.pdb
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\bin\Debug\CapaDatosCuentasxPagar.dll
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\bin\Debug\CapaDatosCuentasxPagar.pdb
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.csprojAssemblyReference.cache
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.csproj.CopyComplete
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.dll
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.pdb

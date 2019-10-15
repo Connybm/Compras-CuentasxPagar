@@ -1,0 +1,6 @@
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\bin\Debug\CapaDatosCuentasxPagar.dll
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\bin\Debug\CapaDatosCuentasxPagar.pdb
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.csprojAssemblyReference.cache
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.dll
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.pdb

@@ -1,0 +1,9 @@
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDisenoCuentasxPagar.dll
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDisenoCuentasxPagar.pdb
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaControlCuentasxPagar.dll
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaControlCuentasxPagar.pdb
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.csprojAssemblyReference.cache
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.csproj.CopyComplete
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.dll
+C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.pdb
