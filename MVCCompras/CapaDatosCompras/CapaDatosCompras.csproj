@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion\Conexion.cs" />
+    <Compile Include="Conexion\Transaccion.cs" />
+    <Compile Include="Entity\Bodega.cs" />
+    <Compile Include="Entity\Contacto.cs" />
+    <Compile Include="Entity\Proveedor.cs" />
+    <Compile Include="Entity\Sucursal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

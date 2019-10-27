@@ -4,3 +4,9 @@ C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDat
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.csproj.CoreCompileInputs.cache
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.dll
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDatosCuentasxPagar\bin\Debug\CapaDatosCuentasxPagar.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDatosCuentasxPagar\bin\Debug\CapaDatosCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDatosCuentasxPagar\obj\Debug\CapaDatosCuentasxPagar.pdb

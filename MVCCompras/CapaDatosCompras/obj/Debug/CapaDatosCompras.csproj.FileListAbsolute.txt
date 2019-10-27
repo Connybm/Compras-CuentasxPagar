@@ -4,3 +4,9 @@ C:\Users\Conny\Desktop\MVCCompras\CapaDatosCompras\obj\Debug\CapaDatosCompras.cs
 C:\Users\Conny\Desktop\MVCCompras\CapaDatosCompras\obj\Debug\CapaDatosCompras.csproj.CoreCompileInputs.cache
 C:\Users\Conny\Desktop\MVCCompras\CapaDatosCompras\obj\Debug\CapaDatosCompras.dll
 C:\Users\Conny\Desktop\MVCCompras\CapaDatosCompras\obj\Debug\CapaDatosCompras.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDatosCompras\bin\Debug\CapaDatosCompras.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDatosCompras\bin\Debug\CapaDatosCompras.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDatosCompras\obj\Debug\CapaDatosCompras.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDatosCompras\obj\Debug\CapaDatosCompras.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDatosCompras\obj\Debug\CapaDatosCompras.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDatosCompras\obj\Debug\CapaDatosCompras.pdb

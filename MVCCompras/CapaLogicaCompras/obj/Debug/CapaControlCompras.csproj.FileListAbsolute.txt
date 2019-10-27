@@ -7,3 +7,12 @@ C:\Users\Conny\Desktop\MVCCompras\CapaLogicaCompras\obj\Debug\CapaControlCompras
 C:\Users\Conny\Desktop\MVCCompras\CapaLogicaCompras\obj\Debug\CapaControlCompras.csproj.CopyComplete
 C:\Users\Conny\Desktop\MVCCompras\CapaLogicaCompras\obj\Debug\CapaLogicaCompras.dll
 C:\Users\Conny\Desktop\MVCCompras\CapaLogicaCompras\obj\Debug\CapaLogicaCompras.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\bin\Debug\CapaLogicaCompras.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\bin\Debug\CapaLogicaCompras.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\bin\Debug\CapaDatosCompras.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\bin\Debug\CapaDatosCompras.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\obj\Debug\CapaControlCompras.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\obj\Debug\CapaControlCompras.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\obj\Debug\CapaControlCompras.csproj.CopyComplete
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\obj\Debug\CapaLogicaCompras.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaLogicaCompras\obj\Debug\CapaLogicaCompras.pdb

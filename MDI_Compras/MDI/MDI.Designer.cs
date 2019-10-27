@@ -31,6 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDI));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordenDeComprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.polizaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -43,11 +48,10 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ordenDeComprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.polizaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contactoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bodegaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -66,6 +70,41 @@
             this.menuStrip.Size = new System.Drawing.Size(632, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
+            // 
+            // comprasToolStripMenuItem
+            // 
+            this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.comprasToolStripMenuItem.Text = "Compras";
+            // 
+            // ordenDeComprasToolStripMenuItem
+            // 
+            this.ordenDeComprasToolStripMenuItem.Name = "ordenDeComprasToolStripMenuItem";
+            this.ordenDeComprasToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
+            this.ordenDeComprasToolStripMenuItem.Text = "Orden de Compras";
+            // 
+            // polizaToolStripMenuItem
+            // 
+            this.polizaToolStripMenuItem.Name = "polizaToolStripMenuItem";
+            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.polizaToolStripMenuItem.Text = "Poliza";
+            // 
+            // reportesToolStripMenuItem
+            // 
+            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.reportesToolStripMenuItem.Text = "Reportes";
+            // 
+            // mantenimientosToolStripMenuItem
+            // 
+            this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.proveedoresToolStripMenuItem,
+            this.contactoToolStripMenuItem,
+            this.bodegaToolStripMenuItem,
+            this.sucursalToolStripMenuItem});
+            this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
+            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
+            this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
             // 
             // toolStrip
             // 
@@ -166,35 +205,33 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
-            // comprasToolStripMenuItem
+            // proveedoresToolStripMenuItem
             // 
-            this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.comprasToolStripMenuItem.Text = "Compras";
+            this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.proveedoresToolStripMenuItem.Text = "Proveedores";
+            this.proveedoresToolStripMenuItem.Click += new System.EventHandler(this.ProveedoresToolStripMenuItem_Click);
             // 
-            // ordenDeComprasToolStripMenuItem
+            // contactoToolStripMenuItem
             // 
-            this.ordenDeComprasToolStripMenuItem.Name = "ordenDeComprasToolStripMenuItem";
-            this.ordenDeComprasToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
-            this.ordenDeComprasToolStripMenuItem.Text = "Orden de Compras";
+            this.contactoToolStripMenuItem.Name = "contactoToolStripMenuItem";
+            this.contactoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contactoToolStripMenuItem.Text = "Contacto";
+            this.contactoToolStripMenuItem.Click += new System.EventHandler(this.ContactoToolStripMenuItem_Click);
             // 
-            // polizaToolStripMenuItem
+            // bodegaToolStripMenuItem
             // 
-            this.polizaToolStripMenuItem.Name = "polizaToolStripMenuItem";
-            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.polizaToolStripMenuItem.Text = "Poliza";
+            this.bodegaToolStripMenuItem.Name = "bodegaToolStripMenuItem";
+            this.bodegaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bodegaToolStripMenuItem.Text = "Bodega";
+            this.bodegaToolStripMenuItem.Click += new System.EventHandler(this.BodegaToolStripMenuItem_Click);
             // 
-            // reportesToolStripMenuItem
+            // sucursalToolStripMenuItem
             // 
-            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.reportesToolStripMenuItem.Text = "Reportes";
-            // 
-            // mantenimientosToolStripMenuItem
-            // 
-            this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
-            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
-            this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
+            this.sucursalToolStripMenuItem.Name = "sucursalToolStripMenuItem";
+            this.sucursalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sucursalToolStripMenuItem.Text = "Sucursal";
+            this.sucursalToolStripMenuItem.Click += new System.EventHandler(this.SucursalToolStripMenuItem_Click);
             // 
             // MDI
             // 
@@ -239,6 +276,10 @@
         private System.Windows.Forms.ToolStripMenuItem polizaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mantenimientosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contactoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bodegaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sucursalToolStripMenuItem;
     }
 }
 

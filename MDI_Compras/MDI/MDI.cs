@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaDisenoCompras.Mantenimientos;
 
 namespace MDI
 {
@@ -102,6 +103,34 @@ namespace MDI
             {
                 childForm.Close();
             }
+        }
+
+        private void ProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Proveedor proveedor = new Mant_Proveedor();
+            proveedor.MdiParent = this;
+            proveedor.Show();
+        }
+
+        private void ContactoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Contacto contacto = new Mant_Contacto();
+            contacto.MdiParent = this;
+            contacto.Show();
+        }
+
+        private void BodegaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Bodega bodega = new Mant_Bodega();
+            bodega.MdiParent = this;
+            bodega.Show();
+        }
+
+        private void SucursalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Sucursal sucursal = new Mant_Sucursal();
+            sucursal.MdiParent = this;
+            sucursal.Show();
         }
     }
 }
