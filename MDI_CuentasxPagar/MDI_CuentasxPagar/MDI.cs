@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaDisenoCuentasxPagar.Mantenimietos;
 
 namespace MDI_CuentasxPagar
 {
@@ -102,6 +103,34 @@ namespace MDI_CuentasxPagar
             {
                 childForm.Close();
             }
+        }
+
+        private void BancosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Banco banco = new Mant_Banco();
+            banco.MdiParent = this;
+            banco.Show();
+        }
+
+        private void PedidoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Pedido pedido = new Mant_Pedido();
+            pedido.MdiParent = this;
+            pedido.Show();
+        }
+
+        private void ServicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Servicio servicio = new Mant_Servicio();
+            servicio.MdiParent = this;
+            servicio.Show();
+        }
+
+        private void AcreedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Acreedor acreedor = new Mant_Acreedor();
+            acreedor.MdiParent = this;
+            acreedor.Show();
         }
     }
 }

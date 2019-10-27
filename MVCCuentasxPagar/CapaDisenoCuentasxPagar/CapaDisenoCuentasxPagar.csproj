@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A063C28A-ED2D-42C0-AD94-106A2853540F}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CapaDisenoCuentasxPagar</RootNamespace>
     <AssemblyName>CapaDisenoCuentasxPagar</AssemblyName>
@@ -49,18 +49,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Iniciar.cs" />
-    <Compile Include="Mantenimietos\Proveedor.cs">
+    <Compile Include="Mantenimietos\Mant_Acreedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimietos\Proveedor.Designer.cs">
-      <DependentUpon>Proveedor.cs</DependentUpon>
+    <Compile Include="Mantenimietos\Mant_Acreedor.Designer.cs">
+      <DependentUpon>Mant_Acreedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="MDIParent1.cs">
+    <Compile Include="Mantenimietos\Mant_Banco.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MDIParent1.Designer.cs">
-      <DependentUpon>MDIParent1.cs</DependentUpon>
+    <Compile Include="Mantenimietos\Mant_Banco.Designer.cs">
+      <DependentUpon>Mant_Banco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimietos\Mant_Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimietos\Mant_Pedido.Designer.cs">
+      <DependentUpon>Mant_Pedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimietos\Mant_Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimietos\Mant_Servicio.Designer.cs">
+      <DependentUpon>Mant_Servicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -71,11 +82,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mantenimietos\Proveedor.resx">
-      <DependentUpon>Proveedor.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimietos\Mant_Acreedor.resx">
+      <DependentUpon>Mant_Acreedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MDIParent1.resx">
-      <DependentUpon>MDIParent1.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimietos\Mant_Banco.resx">
+      <DependentUpon>Mant_Banco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimietos\Mant_Pedido.resx">
+      <DependentUpon>Mant_Pedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimietos\Mant_Servicio.resx">
+      <DependentUpon>Mant_Servicio.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

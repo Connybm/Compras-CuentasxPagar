@@ -1,6 +1,6 @@
 ﻿namespace CapaDisenoCuentasxPagar.Mantenimietos
 {
-    partial class Proveedor
+    partial class Mant_Banco
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Nav_Mant_Proveedor = new CapaDeDiseno.Navegador();
+            this.Nav_Mant_Banco = new CapaDeDiseno.Navegador();
             this.SuspendLayout();
             // 
-            // Nav_Mant_Proveedor
+            // Nav_Mant_Banco
             // 
-            this.Nav_Mant_Proveedor.BackColor = System.Drawing.Color.White;
-            this.Nav_Mant_Proveedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Nav_Mant_Proveedor.Location = new System.Drawing.Point(0, 0);
-            this.Nav_Mant_Proveedor.Name = "Nav_Mant_Proveedor";
-            this.Nav_Mant_Proveedor.Size = new System.Drawing.Size(1177, 659);
-            this.Nav_Mant_Proveedor.TabIndex = 0;
-            this.Nav_Mant_Proveedor.Load += new System.EventHandler(this.Nav_Mant_Proveedor_Load);
+            this.Nav_Mant_Banco.BackColor = System.Drawing.Color.White;
+            this.Nav_Mant_Banco.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Nav_Mant_Banco.Location = new System.Drawing.Point(0, 0);
+            this.Nav_Mant_Banco.Name = "Nav_Mant_Banco";
+            this.Nav_Mant_Banco.Size = new System.Drawing.Size(1182, 660);
+            this.Nav_Mant_Banco.TabIndex = 0;
+            this.Nav_Mant_Banco.Load += new System.EventHandler(this.Nav_Mant_Banco_Load);
             // 
-            // Proveedor
+            // Mant_Banco
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1177, 659);
-            this.Controls.Add(this.Nav_Mant_Proveedor);
-            this.MaximumSize = new System.Drawing.Size(1193, 698);
-            this.MinimumSize = new System.Drawing.Size(1193, 698);
-            this.Name = "Proveedor";
-            this.Text = "Proveedor";
+            this.ClientSize = new System.Drawing.Size(1182, 660);
+            this.Controls.Add(this.Nav_Mant_Banco);
+            this.Name = "Mant_Banco";
+            this.Text = "Mant_Banco";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private CapaDeDiseno.Navegador Nav_Mant_Proveedor;
+        private CapaDeDiseno.Navegador Nav_Mant_Banco;
     }
 }
