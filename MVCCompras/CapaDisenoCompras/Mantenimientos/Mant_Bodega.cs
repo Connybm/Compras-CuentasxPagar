@@ -26,7 +26,6 @@ namespace CapaDisenoCompras.Mantenimientos
             Nav_Mant_Bodega.asignarComboConTabla("Tbl_sucursal", "nombre");
             Nav_Mant_Bodega.asignarTabla("Tbl_bodega");
             Nav_Mant_Bodega.asignarNombreForm("BODEGA");
-            Nav_Mant_Bodega.obtenerIdModulo(1);
             Nav_Mant_Bodega.ObtenerIdAplicacion("1");
         }
 

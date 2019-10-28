@@ -26,7 +26,6 @@ namespace CapaDisenoCompras.Mantenimientos
             Nav_Mant_Proveedor.asignarColorFuente(Color.Black);
             Nav_Mant_Proveedor.asignarTabla("tbl_proveedor");
             Nav_Mant_Proveedor.asignarNombreForm("Proveedores");
-            Nav_Mant_Proveedor.obtenerIdModulo(1);
             Nav_Mant_Proveedor.ObtenerIdAplicacion("1");
         }
 

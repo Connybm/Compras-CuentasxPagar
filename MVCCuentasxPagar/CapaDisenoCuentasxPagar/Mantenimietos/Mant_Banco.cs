@@ -26,7 +26,6 @@ namespace CapaDisenoCuentasxPagar.Mantenimietos
             Nav_Mant_Banco.asignarColorFuente(Color.Black);
             Nav_Mant_Banco.asignarTabla("Tbl_Bancos");
             Nav_Mant_Banco.asignarNombreForm("BANCOS");
-            Nav_Mant_Banco.obtenerIdModulo(1);
             Nav_Mant_Banco.ObtenerIdAplicacion("1");
         }
 

@@ -26,7 +26,6 @@ namespace CapaDisenoCompras.Mantenimientos
             Nav_Mant_Contacto.asignarComboConTabla("Tbl_proveedor", "nombre");
             Nav_Mant_Contacto.asignarTabla("tbl_contacto");
             Nav_Mant_Contacto.asignarNombreForm("CONTACTO");
-            Nav_Mant_Contacto.obtenerIdModulo(1);
             Nav_Mant_Contacto.ObtenerIdAplicacion("1");
         }
 

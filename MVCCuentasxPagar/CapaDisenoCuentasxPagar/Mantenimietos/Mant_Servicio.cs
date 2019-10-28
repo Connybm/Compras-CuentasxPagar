@@ -26,7 +26,6 @@ namespace CapaDisenoCuentasxPagar.Mantenimietos
             Nav_Mant_Servicio.asignarColorFuente(Color.Black);
             Nav_Mant_Servicio.asignarTabla("Tbl_Servicio");
             Nav_Mant_Servicio.asignarNombreForm("SERVICIO");
-            Nav_Mant_Servicio.obtenerIdModulo(1);
             Nav_Mant_Servicio.ObtenerIdAplicacion("1");
         }
 

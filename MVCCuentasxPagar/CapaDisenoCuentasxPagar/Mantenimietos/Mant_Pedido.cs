@@ -28,7 +28,6 @@ namespace CapaDisenoCuentasxPagar.Mantenimietos
             Nav_Mant_Pedido.asignarComboConTabla("Tbl_orden_compra_encabezado", "nombreOrdenCompraEncabezado");
             Nav_Mant_Pedido.asignarTabla("Tbl_Pedido");
             Nav_Mant_Pedido.asignarNombreForm("PEDIDO");
-            Nav_Mant_Pedido.obtenerIdModulo(1);
             Nav_Mant_Pedido.ObtenerIdAplicacion("1");
         }
 

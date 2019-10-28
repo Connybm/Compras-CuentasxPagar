@@ -118,19 +118,5 @@ namespace MDI
             contacto.MdiParent = this;
             contacto.Show();
         }
-
-        private void BodegaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Mant_Bodega bodega = new Mant_Bodega();
-            bodega.MdiParent = this;
-            bodega.Show();
-        }
-
-        private void SucursalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Mant_Sucursal sucursal = new Mant_Sucursal();
-            sucursal.MdiParent = this;
-            sucursal.Show();
-        }
     }
 }

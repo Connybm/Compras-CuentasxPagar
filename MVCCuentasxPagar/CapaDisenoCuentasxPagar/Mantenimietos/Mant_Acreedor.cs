@@ -26,7 +26,6 @@ namespace CapaDisenoCuentasxPagar.Mantenimietos
             Nav_Mant_Acreedor.asignarColorFuente(Color.Black);
             Nav_Mant_Acreedor.asignarTabla("Tbl_Acreedor");
             Nav_Mant_Acreedor.asignarNombreForm("ACREEDOR");
-            Nav_Mant_Acreedor.obtenerIdModulo(1);
             Nav_Mant_Acreedor.ObtenerIdAplicacion("1");
         }
 
