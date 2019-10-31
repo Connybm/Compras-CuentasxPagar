@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace CapaDisenoCompras.Mantenimientos
 {
-    public partial class Mant_Bodega : Form
+    public partial class Mant_Sucursal : Form
     {
         string usuario = "";
-        public Mant_Bodega()
+        public Mant_Sucursal()
         {
             InitializeComponent();
             usuario = "admin";
-            string[] alias = { "Cod", "Sucursal", "Nombre", "Descripcion","Direccion","MaxStock", "MimStock", "Status", "estado" };
+            string[] alias = { "Cod", "Sucursal", "Direccion", "estado" };
             Nav_Mant_Bodega.asignarAlias(alias);
             Nav_Mant_Bodega.asignarAyuda("1");
             Nav_Mant_Bodega.asignarSalida(this);
             Nav_Mant_Bodega.asignarColorFondo(Color.White);
             Nav_Mant_Bodega.asignarColorFuente(Color.Black);
-            Nav_Mant_Bodega.asignarComboConTabla("Tbl_sucursal", "nombre");
-            Nav_Mant_Bodega.asignarTabla("Tbl_bodega");
-            Nav_Mant_Bodega.asignarNombreForm("BODEGA");
+            Nav_Mant_Bodega.asignarTabla("Tbl_sucursal");
+            Nav_Mant_Bodega.asignarNombreForm("SUCURSAL");
             Nav_Mant_Bodega.ObtenerIdAplicacion("1");
         }
 

@@ -47,11 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mantenimientos\Mant_Bodega.cs">
+    <Compile Include="Mantenimientos\Mant_Acreedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\Mant_Bodega.Designer.cs">
-      <DependentUpon>Mant_Bodega.cs</DependentUpon>
+    <Compile Include="Mantenimientos\Mant_Acreedor.Designer.cs">
+      <DependentUpon>Mant_Acreedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Sucursal.Designer.cs">
+      <DependentUpon>Mant_Sucursal.cs</DependentUpon>
     </Compile>
     <Compile Include="Mantenimientos\Mant_Contacto.cs">
       <SubType>Form</SubType>
@@ -74,8 +80,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mantenimientos\Mant_Bodega.resx">
-      <DependentUpon>Mant_Bodega.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimientos\Mant_Acreedor.resx">
+      <DependentUpon>Mant_Acreedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Mant_Sucursal.resx">
+      <DependentUpon>Mant_Sucursal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Mant_Contacto.resx">
       <DependentUpon>Mant_Contacto.cs</DependentUpon>

@@ -26,5 +26,4 @@ C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDi
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.dll
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.Mantenimietos.Mant_Banco.resources
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.Mantenimietos.Mant_Pedido.resources
-\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.Mantenimietos.Mant_Acreedor.resources
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.Mantenimietos.Mant_Servicio.resources

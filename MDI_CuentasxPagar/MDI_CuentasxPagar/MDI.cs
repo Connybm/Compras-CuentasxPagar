@@ -126,11 +126,5 @@ namespace MDI_CuentasxPagar
             servicio.Show();
         }
 
-        private void AcreedorToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Mant_Acreedor acreedor = new Mant_Acreedor();
-            acreedor.MdiParent = this;
-            acreedor.Show();
-        }
     }
 }

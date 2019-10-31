@@ -118,5 +118,19 @@ namespace MDI
             contacto.MdiParent = this;
             contacto.Show();
         }
+
+        private void AcreedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Acreedor acreedor = new Mant_Acreedor();
+            acreedor.MdiParent = this;
+            acreedor.Show();
+        }
+
+        private void SucursalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mant_Sucursal sucursal = new Mant_Sucursal();
+            sucursal.MdiParent = this;
+            sucursal.Show();
+        }
     }
 }

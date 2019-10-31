@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CapaDisenoCuentasxPagar.Mantenimietos
+namespace CapaDisenoCompras.Mantenimientos
 {
     public partial class Mant_Acreedor : Form
     {

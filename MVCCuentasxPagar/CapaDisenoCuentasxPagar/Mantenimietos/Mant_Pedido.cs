@@ -24,8 +24,8 @@ namespace CapaDisenoCuentasxPagar.Mantenimietos
             Nav_Mant_Pedido.asignarSalida(this);
             Nav_Mant_Pedido.asignarColorFondo(Color.White);
             Nav_Mant_Pedido.asignarColorFuente(Color.Black);
-            Nav_Mant_Pedido.asignarComboConTabla("tbl_proveedor", "nombre");
-            Nav_Mant_Pedido.asignarComboConTabla("Tbl_orden_compra_encabezado", "nombreOrdenCompraEncabezado");
+            Nav_Mant_Pedido.asignarComboConTabla("tbl_proveedor", "nombre",1);
+            Nav_Mant_Pedido.asignarComboConTabla("Tbl_orden_compra_encabezado", "nombreOrdenCompraEncabezado",1);
             Nav_Mant_Pedido.asignarTabla("Tbl_Pedido");
             Nav_Mant_Pedido.asignarNombreForm("PEDIDO");
             Nav_Mant_Pedido.ObtenerIdAplicacion("1");

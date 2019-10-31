@@ -1,6 +1,6 @@
 ﻿namespace CapaDisenoCompras.Mantenimientos
 {
-    partial class Mant_Bodega
+    partial class Mant_Sucursal
     {
         /// <summary>
         /// Required designer variable.

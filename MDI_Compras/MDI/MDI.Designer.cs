@@ -50,6 +50,8 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.acreedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -97,7 +99,9 @@
             // 
             this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.proveedoresToolStripMenuItem,
-            this.contactoToolStripMenuItem});
+            this.contactoToolStripMenuItem,
+            this.acreedorToolStripMenuItem,
+            this.sucursalToolStripMenuItem});
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
             this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
             this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
@@ -215,6 +219,20 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
+            // acreedorToolStripMenuItem
+            // 
+            this.acreedorToolStripMenuItem.Name = "acreedorToolStripMenuItem";
+            this.acreedorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acreedorToolStripMenuItem.Text = "Acreedor";
+            this.acreedorToolStripMenuItem.Click += new System.EventHandler(this.AcreedorToolStripMenuItem_Click);
+            // 
+            // sucursalToolStripMenuItem
+            // 
+            this.sucursalToolStripMenuItem.Name = "sucursalToolStripMenuItem";
+            this.sucursalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sucursalToolStripMenuItem.Text = "Sucursal";
+            this.sucursalToolStripMenuItem.Click += new System.EventHandler(this.SucursalToolStripMenuItem_Click);
+            // 
             // MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -260,6 +278,8 @@
         private System.Windows.Forms.ToolStripMenuItem mantenimientosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contactoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem acreedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sucursalToolStripMenuItem;
     }
 }
 

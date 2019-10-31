@@ -1,4 +1,4 @@
-﻿namespace CapaDisenoCuentasxPagar.Mantenimietos
+﻿namespace CapaDisenoCompras.Mantenimientos
 {
     partial class Mant_Acreedor
     {
@@ -37,7 +37,7 @@
             this.Nav_Mant_Acreedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Nav_Mant_Acreedor.Location = new System.Drawing.Point(0, 0);
             this.Nav_Mant_Acreedor.Name = "Nav_Mant_Acreedor";
-            this.Nav_Mant_Acreedor.Size = new System.Drawing.Size(1164, 652);
+            this.Nav_Mant_Acreedor.Size = new System.Drawing.Size(1185, 663);
             this.Nav_Mant_Acreedor.TabIndex = 0;
             this.Nav_Mant_Acreedor.Load += new System.EventHandler(this.Nav_Mant_Acreedor_Load);
             // 
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1164, 652);
+            this.ClientSize = new System.Drawing.Size(1185, 663);
             this.Controls.Add(this.Nav_Mant_Acreedor);
             this.Name = "Mant_Acreedor";
             this.Text = "Mant_Acreedor";

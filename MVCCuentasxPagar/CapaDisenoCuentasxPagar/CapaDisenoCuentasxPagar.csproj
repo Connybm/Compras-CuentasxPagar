@@ -50,12 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mantenimietos\Mant_Acreedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimietos\Mant_Acreedor.Designer.cs">
-      <DependentUpon>Mant_Acreedor.cs</DependentUpon>
-    </Compile>
     <Compile Include="Mantenimietos\Mant_Banco.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,9 +77,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mantenimietos\Mant_Acreedor.resx">
-      <DependentUpon>Mant_Acreedor.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Mantenimietos\Mant_Banco.resx">
       <DependentUpon>Mant_Banco.cs</DependentUpon>
     </EmbeddedResource>

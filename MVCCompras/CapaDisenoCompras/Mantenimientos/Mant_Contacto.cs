@@ -23,7 +23,7 @@ namespace CapaDisenoCompras.Mantenimientos
             Nav_Mant_Contacto.asignarSalida(this);
             Nav_Mant_Contacto.asignarColorFondo(Color.White);
             Nav_Mant_Contacto.asignarColorFuente(Color.Black);
-            Nav_Mant_Contacto.asignarComboConTabla("Tbl_proveedor", "nombre");
+            Nav_Mant_Contacto.asignarComboConTabla("Tbl_proveedor", "nombre", 1);
             Nav_Mant_Contacto.asignarTabla("tbl_contacto");
             Nav_Mant_Contacto.asignarNombreForm("CONTACTO");
             Nav_Mant_Contacto.ObtenerIdAplicacion("1");

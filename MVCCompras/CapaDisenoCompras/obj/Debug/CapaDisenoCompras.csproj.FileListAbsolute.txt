@@ -24,7 +24,7 @@ C:\Users\Conny\Desktop\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.csproj.CopyComplete
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.dll
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.pdb
-\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.Mantenimientos.Mant_Bodega.resources
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.Mantenimientos.Mant_Contacto.resources
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.Mantenimientos.Mant_Proveedor.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.Mantenimientos.Mant_Acreedor.resources
 \\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Conmpras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCompras\CapaDisenoCompras\obj\Debug\CapaDisenoCompras.Mantenimientos.Mant_Sucursal.resources
