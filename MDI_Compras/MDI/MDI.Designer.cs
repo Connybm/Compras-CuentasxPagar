@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDI));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -43,11 +45,13 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ordenDeComprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.polizaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.comprasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordenDeComprasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.polizaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -56,16 +60,29 @@
             // menuStrip
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.comprasToolStripMenuItem,
-            this.ordenDeComprasToolStripMenuItem,
-            this.polizaToolStripMenuItem,
+            this.inicioToolStripMenuItem,
+            this.mantenimientosToolStripMenuItem,
+            this.procesosToolStripMenuItem,
             this.reportesToolStripMenuItem,
-            this.mantenimientosToolStripMenuItem});
+            this.herramientasToolStripMenuItem,
+            this.ayudasToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(632, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
+            // 
+            // reportesToolStripMenuItem
+            // 
+            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.reportesToolStripMenuItem.Text = "Reportes";
+            // 
+            // mantenimientosToolStripMenuItem
+            // 
+            this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
+            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
+            this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
             // 
             // toolStrip
             // 
@@ -166,35 +183,51 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
-            // comprasToolStripMenuItem
+            // inicioToolStripMenuItem
             // 
-            this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.comprasToolStripMenuItem.Text = "Compras";
+            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.inicioToolStripMenuItem.Text = "Inicio";
             // 
-            // ordenDeComprasToolStripMenuItem
+            // procesosToolStripMenuItem
             // 
-            this.ordenDeComprasToolStripMenuItem.Name = "ordenDeComprasToolStripMenuItem";
-            this.ordenDeComprasToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
-            this.ordenDeComprasToolStripMenuItem.Text = "Orden de Compras";
+            this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.comprasToolStripMenuItem1,
+            this.ordenDeComprasToolStripMenuItem1,
+            this.polizaToolStripMenuItem1});
+            this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
+            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.procesosToolStripMenuItem.Text = "Procesos";
             // 
-            // polizaToolStripMenuItem
+            // comprasToolStripMenuItem1
             // 
-            this.polizaToolStripMenuItem.Name = "polizaToolStripMenuItem";
-            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.polizaToolStripMenuItem.Text = "Poliza";
+            this.comprasToolStripMenuItem1.Name = "comprasToolStripMenuItem1";
+            this.comprasToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.comprasToolStripMenuItem1.Text = "Compras";
             // 
-            // reportesToolStripMenuItem
+            // ordenDeComprasToolStripMenuItem1
             // 
-            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.reportesToolStripMenuItem.Text = "Reportes";
+            this.ordenDeComprasToolStripMenuItem1.Name = "ordenDeComprasToolStripMenuItem1";
+            this.ordenDeComprasToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ordenDeComprasToolStripMenuItem1.Text = "Orden de Compras";
             // 
-            // mantenimientosToolStripMenuItem
+            // polizaToolStripMenuItem1
             // 
-            this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
-            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
-            this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
+            this.polizaToolStripMenuItem1.Name = "polizaToolStripMenuItem1";
+            this.polizaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.polizaToolStripMenuItem1.Text = "Poliza";
+            // 
+            // herramientasToolStripMenuItem
+            // 
+            this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
+            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
+            this.herramientasToolStripMenuItem.Text = "Herramientas";
+            // 
+            // ayudasToolStripMenuItem
+            // 
+            this.ayudasToolStripMenuItem.Name = "ayudasToolStripMenuItem";
+            this.ayudasToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.ayudasToolStripMenuItem.Text = "Ayudas";
             // 
             // MDI
             // 
@@ -234,11 +267,15 @@
         private System.Windows.Forms.ToolStripButton printPreviewToolStripButton;
         private System.Windows.Forms.ToolStripButton helpToolStripButton;
         private System.Windows.Forms.ToolTip toolTip;
-        private System.Windows.Forms.ToolStripMenuItem comprasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ordenDeComprasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem polizaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mantenimientosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem comprasToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ordenDeComprasToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem polizaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudasToolStripMenuItem;
     }
 }
 
