@@ -13,12 +13,12 @@ namespace CapaDisenoCompras.Mantenimientos
     public partial class Mant_Proveedor : Form
     {
         string usuario = "";
-        public Mant_Proveedor()
+        public Mant_Proveedor(string usr)
         {
             InitializeComponent();
             //Parametros del Navegador
-            usuario = "admin";
-            string[] alias = { "Cod", "Contacto", "proveedor", "telefono", "direccion", "pagina", "estado" };
+            usuario = usr;
+            string[] alias = { "Cod", "proveedor", "telefono", "direccion", "pagina", "estado" };
             Nav_Mant_Proveedor.asignarAlias(alias);
             Nav_Mant_Proveedor.asignarAyuda("1");
             Nav_Mant_Proveedor.asignarSalida(this);

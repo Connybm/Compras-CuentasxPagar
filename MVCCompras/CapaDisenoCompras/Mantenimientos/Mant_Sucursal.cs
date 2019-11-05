@@ -13,10 +13,11 @@ namespace CapaDisenoCompras.Mantenimientos
     public partial class Mant_Sucursal : Form
     {
         string usuario = "";
-        public Mant_Sucursal()
+        public Mant_Sucursal(string usr)
         {
             InitializeComponent();
-            usuario = "admin";
+            //Parametros del Navegador
+            usuario = usr;
             string[] alias = { "Cod", "Sucursal", "Direccion", "estado" };
             Nav_Mant_Bodega.asignarAlias(alias);
             Nav_Mant_Bodega.asignarAyuda("1");

@@ -14,7 +14,7 @@ namespace MDI_CuentasxPagar
     public partial class MDI : Form
     {
         private int childFormNumber = 0;
-
+        private string usuario = "admin";
         public MDI()
         {
             InitializeComponent();
@@ -107,21 +107,21 @@ namespace MDI_CuentasxPagar
 
         private void BancosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mant_Banco banco = new Mant_Banco();
+            Mant_Banco banco = new Mant_Banco(usuario);
             banco.MdiParent = this;
             banco.Show();
         }
 
         private void PedidoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mant_Pedido pedido = new Mant_Pedido();
+            Mant_Pedido pedido = new Mant_Pedido(usuario);
             pedido.MdiParent = this;
             pedido.Show();
         }
 
         private void ServicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mant_Servicio servicio = new Mant_Servicio();
+            Mant_Servicio servicio = new Mant_Servicio(usuario);
             servicio.MdiParent = this;
             servicio.Show();
         }

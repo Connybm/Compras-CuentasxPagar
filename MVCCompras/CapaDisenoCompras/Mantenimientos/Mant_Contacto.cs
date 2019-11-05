@@ -13,10 +13,11 @@ namespace CapaDisenoCompras.Mantenimientos
     public partial class Mant_Contacto : Form
     {
         string usuario = "";
-        public Mant_Contacto()
+        public Mant_Contacto(string usr)
         {
             InitializeComponent();
-            usuario = "admin";
+            //Parametros del Navegador
+            usuario = usr;
             string[] alias = { "Cod", "Proveedor", "Nombre", "Telefono", "Email", "estado" };
             Nav_Mant_Contacto.asignarAlias(alias);
             Nav_Mant_Contacto.asignarAyuda("1");

@@ -14,6 +14,7 @@ namespace MDI
     public partial class MDI : Form
     {
         private int childFormNumber = 0;
+        private string usuario = "admin";
 
         public MDI()
         {
@@ -107,28 +108,28 @@ namespace MDI
 
         private void ProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mant_Proveedor proveedor = new Mant_Proveedor();
+            Mant_Proveedor proveedor = new Mant_Proveedor(usuario);
             proveedor.MdiParent = this;
             proveedor.Show();
         }
 
         private void ContactoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mant_Contacto contacto = new Mant_Contacto();
+            Mant_Contacto contacto = new Mant_Contacto(usuario);
             contacto.MdiParent = this;
             contacto.Show();
         }
 
         private void AcreedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mant_Acreedor acreedor = new Mant_Acreedor();
+            Mant_Acreedor acreedor = new Mant_Acreedor(usuario);
             acreedor.MdiParent = this;
             acreedor.Show();
         }
 
         private void SucursalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mant_Sucursal sucursal = new Mant_Sucursal();
+            Mant_Sucursal sucursal = new Mant_Sucursal(usuario);
             sucursal.MdiParent = this;
             sucursal.Show();
         }

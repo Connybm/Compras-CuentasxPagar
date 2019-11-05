@@ -13,19 +13,19 @@ namespace CapaDisenoCuentasxPagar.Mantenimietos
     public partial class Mant_Pedido : Form
     {
         string usuario = "";
-        public Mant_Pedido()
+        public Mant_Pedido(string usr)
         {
             InitializeComponent();
             //Parametros del Navegador
-            usuario = "admin";
+            usuario = usr;
             string[] alias = { "Pedido", "Proveedor", "Compra", "Total", "estado" };
             Nav_Mant_Pedido.asignarAlias(alias);
             Nav_Mant_Pedido.asignarAyuda("1");
             Nav_Mant_Pedido.asignarSalida(this);
             Nav_Mant_Pedido.asignarColorFondo(Color.White);
             Nav_Mant_Pedido.asignarColorFuente(Color.Black);
-            Nav_Mant_Pedido.asignarComboConTabla("tbl_proveedor", "nombre",1);
-            Nav_Mant_Pedido.asignarComboConTabla("Tbl_orden_compra_encabezado", "nombreOrdenCompraEncabezado",1);
+            Nav_Mant_Pedido.asignarComboConTabla("tbl_proveedor", "nombre", 1);
+            Nav_Mant_Pedido.asignarComboConTabla("Tbl_orden_compra_encabezado", "KidOrdenCompraEncabezado", 1);
             Nav_Mant_Pedido.asignarTabla("Tbl_Pedido");
             Nav_Mant_Pedido.asignarNombreForm("PEDIDO");
             Nav_Mant_Pedido.ObtenerIdAplicacion("1");

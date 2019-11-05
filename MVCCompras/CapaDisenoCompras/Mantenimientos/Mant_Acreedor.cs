@@ -13,18 +13,18 @@ namespace CapaDisenoCompras.Mantenimientos
     public partial class Mant_Acreedor : Form
     {
         string usuario = "";
-        public Mant_Acreedor()
+        public Mant_Acreedor(string usr)
         {
             InitializeComponent();
             //Parametros del Navegador
-            usuario = "admin";
+            usuario = usr;
+            Nav_Mant_Acreedor.asignarTabla("Tbl_Acreedor");
             string[] alias = { "Cod", "Acreedor", "Descripcion", "estado" };
             Nav_Mant_Acreedor.asignarAlias(alias);
             Nav_Mant_Acreedor.asignarAyuda("1");
             Nav_Mant_Acreedor.asignarSalida(this);
             Nav_Mant_Acreedor.asignarColorFondo(Color.White);
             Nav_Mant_Acreedor.asignarColorFuente(Color.Black);
-            Nav_Mant_Acreedor.asignarTabla("Tbl_Acreedor");
             Nav_Mant_Acreedor.asignarNombreForm("ACREEDOR");
             Nav_Mant_Acreedor.ObtenerIdAplicacion("1");
         }

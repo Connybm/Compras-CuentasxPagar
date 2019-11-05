@@ -13,11 +13,11 @@ namespace CapaDisenoCuentasxPagar.Mantenimietos
     public partial class Mant_Servicio : Form
     {
         string usuario = "";
-        public Mant_Servicio()
+        public Mant_Servicio(string usr)
         {
             InitializeComponent();
             //Parametros del Navegador
-            usuario = "admin";
+            usuario = usr;
             string[] alias = { "Cod", "Servicio", "Descripcion", "estado" };
             Nav_Mant_Servicio.asignarAlias(alias);
             Nav_Mant_Servicio.asignarAyuda("1");
