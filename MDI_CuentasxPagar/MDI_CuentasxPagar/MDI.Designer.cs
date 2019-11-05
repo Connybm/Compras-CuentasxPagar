@@ -46,12 +46,27 @@
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Connymb-master
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.movimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.polizaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
+=======
+=======
+            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.proveedoresToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.polizaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.movimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 616e186199cdf067e78c1021d44c753364b986ee
+>>>>>>> Connymb-master
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -184,6 +199,10 @@
             this.toolStripStatusLabel.Text = "Estado";
             // 
             // inicioToolStripMenuItem
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Connymb-master
             // 
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
@@ -216,6 +235,15 @@
             this.proveedorToolStripMenuItem.Name = "proveedorToolStripMenuItem";
             this.proveedorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.proveedorToolStripMenuItem.Text = "Proveedor";
+<<<<<<< HEAD
+=======
+=======
+            // 
+            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.inicioToolStripMenuItem.Text = "Inicio";
+>>>>>>> 616e186199cdf067e78c1021d44c753364b986ee
+>>>>>>> Connymb-master
             // 
             // movimientosToolStripMenuItem
             // 
@@ -225,10 +253,51 @@
             // 
             // polizaToolStripMenuItem
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Connymb-master
             this.polizaToolStripMenuItem.Name = "polizaToolStripMenuItem";
             this.polizaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.polizaToolStripMenuItem.Text = "Poliza";
             // 
+<<<<<<< HEAD
+=======
+=======
+            this.ayudasToolStripMenuItem.Name = "ayudasToolStripMenuItem";
+            this.ayudasToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.ayudasToolStripMenuItem.Text = "Ayudas";
+            // 
+            // procesosToolStripMenuItem
+            // 
+            this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.proveedoresToolStripMenuItem1,
+            this.movimientosToolStripMenuItem,
+            this.polizaToolStripMenuItem1});
+            this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
+            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.procesosToolStripMenuItem.Text = "Procesos";
+            // 
+            // proveedoresToolStripMenuItem1
+            // 
+            this.proveedoresToolStripMenuItem1.Name = "proveedoresToolStripMenuItem1";
+            this.proveedoresToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.proveedoresToolStripMenuItem1.Text = "Proveedores";
+            // 
+            // polizaToolStripMenuItem1
+            // 
+            this.polizaToolStripMenuItem1.Name = "polizaToolStripMenuItem1";
+            this.polizaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.polizaToolStripMenuItem1.Text = "Poliza";
+            // 
+            // movimientosToolStripMenuItem
+            // 
+            this.movimientosToolStripMenuItem.Name = "movimientosToolStripMenuItem";
+            this.movimientosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.movimientosToolStripMenuItem.Text = "Movimientos";
+            // 
+>>>>>>> 616e186199cdf067e78c1021d44c753364b986ee
+>>>>>>> Connymb-master
             // MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -271,9 +340,21 @@
         private System.Windows.Forms.ToolStripMenuItem mantenimientosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
+<<<<<<< HEAD
         private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem movimientosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem polizaToolStripMenuItem;
+=======
+<<<<<<< HEAD
+        private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem movimientosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem polizaToolStripMenuItem;
+=======
+        private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem movimientosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem polizaToolStripMenuItem1;
+>>>>>>> 616e186199cdf067e78c1021d44c753364b986ee
+>>>>>>> Connymb-master
         private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudasToolStripMenuItem;
     }
