@@ -31,8 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CapaDeDiseno">
+      <HintPath>..\..\..\..\Navegador\NAV2K19\PROYECTO\NAVE\NAVE\bin\Debug\CapaDeDiseno.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mantenimientos\Mant_Banco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Banco.Designer.cs">
+      <DependentUpon>Mant_Banco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Pedido.Designer.cs">
+      <DependentUpon>Mant_Pedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Servicio.Designer.cs">
+      <DependentUpon>Mant_Servicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +71,18 @@
       <Project>{0c4720f4-6459-4107-abf1-f149c6aea0c8}</Project>
       <Name>CapaControlCuentasxPagar</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Mantenimientos\Mant_Banco.resx">
+      <DependentUpon>Mant_Banco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Mant_Pedido.resx">
+      <DependentUpon>Mant_Pedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Mant_Servicio.resx">
+      <DependentUpon>Mant_Servicio.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

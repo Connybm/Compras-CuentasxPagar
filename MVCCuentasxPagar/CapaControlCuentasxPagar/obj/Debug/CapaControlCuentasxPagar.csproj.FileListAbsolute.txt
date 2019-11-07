@@ -7,3 +7,12 @@ C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaC
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.csproj.CopyComplete
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.dll
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\bin\Debug\CapaControlCuentasxPagar.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\bin\Debug\CapaControlCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\bin\Debug\CapaDatosCuentasxPagar.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\bin\Debug\CapaDatosCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.csproj.CopyComplete
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaControlCuentasxPagar\obj\Debug\CapaControlCuentasxPagar.pdb

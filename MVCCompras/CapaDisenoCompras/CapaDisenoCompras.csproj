@@ -31,8 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CapaDeDiseno">
+      <HintPath>..\..\..\..\Navegador\NAV2K19\DLL\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mantenimientos\Mant_Acreedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Acreedor.Designer.cs">
+      <DependentUpon>Mant_Acreedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Contacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Contacto.Designer.cs">
+      <DependentUpon>Mant_Contacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Mant_Proveedor.Designer.cs">
+      <DependentUpon>Mant_Proveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +71,20 @@
       <Project>{b1749cc0-94ff-4325-af8e-d7f05eafc30a}</Project>
       <Name>CapaControlCompras</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mantenimientos\Mant_Acreedor.resx">
+      <DependentUpon>Mant_Acreedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Mant_Contacto.resx">
+      <DependentUpon>Mant_Contacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Mant_Proveedor.resx">
+      <DependentUpon>Mant_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ayuda\AyudaCompras.chm" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

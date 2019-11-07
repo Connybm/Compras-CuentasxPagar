@@ -42,6 +42,9 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.acreedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contactoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.proveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -69,6 +72,10 @@
             // 
             // mantenimientosToolStripMenuItem
             // 
+            this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.acreedorToolStripMenuItem,
+            this.contactoToolStripMenuItem,
+            this.proveedorToolStripMenuItem});
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
             this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
             this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
@@ -86,19 +93,19 @@
             // comprasToolStripMenuItem
             // 
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.comprasToolStripMenuItem.Text = "Compras";
             // 
             // ordenDeComprasToolStripMenuItem
             // 
             this.ordenDeComprasToolStripMenuItem.Name = "ordenDeComprasToolStripMenuItem";
-            this.ordenDeComprasToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.ordenDeComprasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ordenDeComprasToolStripMenuItem.Text = "Orden de Compras";
             // 
             // polizaToolStripMenuItem
             // 
             this.polizaToolStripMenuItem.Name = "polizaToolStripMenuItem";
-            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.polizaToolStripMenuItem.Text = "Poliza";
             // 
             // reportesToolStripMenuItem
@@ -135,6 +142,27 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
+            // acreedorToolStripMenuItem
+            // 
+            this.acreedorToolStripMenuItem.Name = "acreedorToolStripMenuItem";
+            this.acreedorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acreedorToolStripMenuItem.Text = "Acreedor";
+            this.acreedorToolStripMenuItem.Click += new System.EventHandler(this.AcreedorToolStripMenuItem_Click);
+            // 
+            // contactoToolStripMenuItem
+            // 
+            this.contactoToolStripMenuItem.Name = "contactoToolStripMenuItem";
+            this.contactoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contactoToolStripMenuItem.Text = "Contacto";
+            this.contactoToolStripMenuItem.Click += new System.EventHandler(this.ContactoToolStripMenuItem_Click);
+            // 
+            // proveedorToolStripMenuItem
+            // 
+            this.proveedorToolStripMenuItem.Name = "proveedorToolStripMenuItem";
+            this.proveedorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.proveedorToolStripMenuItem.Text = "Proveedor";
+            this.proveedorToolStripMenuItem.Click += new System.EventHandler(this.ProveedorToolStripMenuItem_Click);
+            // 
             // Compras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,6 +198,9 @@
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem acreedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contactoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem;
     }
 }
 

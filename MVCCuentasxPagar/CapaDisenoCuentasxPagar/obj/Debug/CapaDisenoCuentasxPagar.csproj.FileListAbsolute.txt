@@ -7,3 +7,29 @@ C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDi
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.csproj.CopyComplete
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.dll
 C:\Users\Conny\Desktop\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDisenoCuentasxPagar.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDisenoCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaControlCuentasxPagar.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDeDiseno.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDeLogica.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\ConsultasInteligentes.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDeDatos.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaLogica_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDatos_Consultas.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaControlCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDeDiseno.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDeLogica.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\ConsultasInteligentes.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDeDatos.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaLogica_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\bin\Debug\CapaDatos_Consultas.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.csprojAssemblyReference.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.Mantenimientos.Mant_Servicio.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.csproj.GenerateResource.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.csproj.CopyComplete
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.dll
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.pdb
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.Mantenimientos.Mant_Pedido.resources
+\\Mac\Home\Documents\8vo semestre\037 Analisis de Sistemas II\Compras y Cuentas por Pagar\Compras-CuentasxPagar\MVCCuentasxPagar\CapaDisenoCuentasxPagar\obj\Debug\CapaDisenoCuentasxPagar.Mantenimientos.Mant_Banco.resources
