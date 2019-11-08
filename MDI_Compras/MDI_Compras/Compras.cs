@@ -13,7 +13,7 @@ namespace MDI_Compras
 {
     public partial class Compras : Form
     {
-        string usuario = "";
+        string usuario = "admin";
         public Compras()
         {
             InitializeComponent();
